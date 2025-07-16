@@ -188,3 +188,40 @@ footer input[type="text"], footer input[type="email"], footer textarea{
     padding: 10px 20px;
     margin-bottom: 24px;
 }
+
+
+
+/* responsive media query */
+
+@media screen and (max-width: 576px){
+    /* .skills,
+    .resume,
+    .banner,
+    footer,
+    nav,
+    nav > ul,
+    .about-items{
+        flex-direction: column;
+    } */
+
+    nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 10px;
+    }
+
+    nav > h3{
+        margin-left: -20;
+    } 
+
+    nav > ul{
+        gap: 1px;
+    }
+
+    .header{
+        background-image: none;
+    }
+
+
+}
